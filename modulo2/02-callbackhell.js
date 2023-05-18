@@ -1,5 +1,8 @@
 /* 
 CALL BACK HELL: REFACTORIZAR O SUFRIR
+El "callback hell" se refiere a un patrón de código JavaScript con múltiples funciones de devolución de llamada anidadas, 
+lo que puede hacer que el código sea confuso y difícil de entender y mantener. Se produce cuando hay muchas operaciones 
+asincrónicas encadenadas, lo que crea una estructura de código desordenada y poco legible.
 */
 function hola(nombre, miCallback) {
   setTimeout(() => {
