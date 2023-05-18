@@ -1,4 +1,9 @@
 
+/* 
+El módulo os en Node.js proporciona funciones y propiedades para interactuar con el sistema 
+operativo en el que se ejecuta la aplicación, como obtener información del sistema y manipular rutas de archivo.
+*/
+
 const { log } = require('console');
 
 const os = require('os');
