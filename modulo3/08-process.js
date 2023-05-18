@@ -1,6 +1,6 @@
 const { error } = require("console");
 
-
+//Nos muestra el ciclo de vida de una aplicacion
 process.on('beforeExit', () => {
     console.log('El proceso va a terminar');
 });
@@ -14,4 +14,4 @@ process.on('uncaughtException', (err,origen) => {
     console.error(err);
 });
 
-funcionQueNoExiste();
+funcionQueNoExiste(); //llama a uncaughtException
