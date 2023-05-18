@@ -114,7 +114,7 @@
     * Console.time()
 * [Debugger](https://github.com/JairMora21/Fundamentos-Node.js/blob/master/modulo5/02-debugger.js)
     * Inspeccion de codigo
-    * Debugger en inspector de google
+    * Debugger en inspector de Google
 * [Error First CallBack](https://github.com/JairMora21/Fundamentos-Node.js/blob/master/modulo5/03-ErrorFirstCallback.js)
     * Explicacion
 
