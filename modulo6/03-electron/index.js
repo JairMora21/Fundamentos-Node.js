@@ -1,7 +1,8 @@
+//Mandamsos a llamar el modulo electron
 const {app, BrowserWindow} = require('electron');
 
 let mainWindow;
-
+//Creamos la app de ecritorio
 app.on('ready', createWindow);
 
 function createWindow(){
